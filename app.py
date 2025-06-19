@@ -33,7 +33,7 @@ auth = dash_auth.BasicAuth(app, VALID_USERNAME_PASSWORD_PAIRS)
 app.title = "グラフダッシュボード"
 
 app.layout = html.Div([
-    html.H2("新規（棒グラフ）と売上（折れ線グラフ）ダッシュボード", style={'textAlign': 'center'}),
+    html.H2("新規（棒グラフ）と売上（折れ線グラフ）ダッシュボードv2", style={'textAlign': 'center'}),
     html.Div([
         # 左：折れ線グラフ
         html.Div([
